@@ -1,0 +1,32 @@
+<ol class="comments">
+  <% comments.each do |comment| %>
+  <li class="media">
+    <%= link_to comment.user, :class => 'pull-left' do %>
+      <%= image_tag comment.user.profile_image.url, :style => 'width: 100px; height: 100px;', :class => "media-object img-circle" %>
+    <% end %>
+    <div class="media-body">
+      <div class="well well-lg">
+          <h4>
+            <span class="user media-heading text-uppercase reviews">
+              <% if comment.user.is_admin? %>
+                <b style="color: red"> >> <%= link_to comment.user.user_name, comment.user %> << </b>
+              <% else %>
+                <%= link_to comment.user.user_name, comment.user %>
+              <% end %>
+            </span> 
+          </h4>
+          <p class="media-comment">
+            <%= comment.content %>
+          </p>
+          <span class="timestamp">
+            Posted <%= time_ago_in_words(comment.created_at) %> ago.
+          </span>
+          <%= link_to t("button.delete"), admin_product_comment_path(comment),
+                method: :delete, data: { confirm: t("confirm.are_you_sure") },
+                class: "btn btn-danger" %>
+      </div>
+    </div>
+  </li>
+  <% end %>
+  <%= will_paginate @comments %>
+</ol>

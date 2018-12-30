@@ -1,0 +1,19 @@
+<div class="col-sm-6 col-md-3">
+  <%= form_tag '/carts', remote: true do |f| %>
+    <div class="pro">
+        <div class="ov-img">
+            <%= link_to image_tag(product.image.url, 
+            alt: t("alt.product_image"), 
+            class: "img-responsive"), product %>
+        </div>
+        <div class="profile">
+          <div class="product-rate" data-score="<%= product.average_rate %>"></div>
+          <%= link_to product.name, product, class: "name" %>
+          <p class="price"><%= product.price.round %> VND</p>
+              <%= hidden_field_tag :product_id, product.id %>
+              <%= hidden_field_tag :quantity, Settings.order.quantity_default %>
+              <%= submit_tag t("product.add_to_cart"), class: "btn full-width-button" %>
+        </div>
+    </div>
+    <% end %>
+</div>

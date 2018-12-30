@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="icon" type="image/png" href="/favicon.png">
+    <%= render "layouts/meta_tag" %>
+    <title> Do an vat Online</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag "application", media: "all", "data-turbolinks-track": "reload" %>
+    <%= javascript_include_tag "application", "data-turbolinks-track": "reload" %>
+    <%= render "layouts/shim" %>
+  </head>
+
+  <body>
+    <div id="fakeLoader"></div>
+    <div id="fb-root"></div>
+    <%= render "layouts/header" %>
+    <div class="container render-page">
+      <div id="flash">
+        <% flash.each do |message_type, messages| %>
+          <% if messages.is_a? Array %>
+            <% messages.each do |message| %>
+              <%= content_tag(:div, message, class: "alert alert-#{message_type}") %>
+            <% end %>
+          <% else %>
+            <%= content_tag(:div, messages, class: "alert alert-#{message_type}") %>
+          <% end %>
+        <% end %>
+      </div>
+      <%= yield %>
+      <%= render "layouts/footer" %>
+    </div>
+  </body>
+</html>

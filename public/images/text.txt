@@ -1,0 +1,586 @@
+Product.create!(name: "Bánh mì que", 
+				category_id: 1,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/banhmyque.jpg")
+				
+Product.create!(name: "Bò khô", 
+				category_id: 1,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/bo_kho.jpg")
+				
+Product.create!(name: "Ca cao nóng", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/cacaonong.jpg")
+				
+Product.create!(name: "Cafe caramen", 
+				category_id: 5,
+				price: 15000, 
+				description: "Một chút biến tấu từ caramen thông thường, thêm nước cốt dừa béo ngậy, thạch và một số hoa quả nếu muốn, thêm chút nước cafe là bạn đã có món ăn giải nhiệt sảng khoái rồi nha. Đồ ăn vặt Online - SETFA có rất nhiều món caramen thập cẩm khác nhau để cho các bạn lựa chọn nhé!", 
+				image: File.open(Rails.root + "public/image/cafe_caramel.jpg")
+
+Product.create!(name: "Cà rốt ép", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/carotep.jpg")
+				
+Product.create!(name: "Chanh leo", 
+				category_id: 3,
+				price: 13000, 
+				description: "Sinh tố chanh leo không chỉ là thức uống giải khát lý tưởng mà còn là thức uống giúp bạn giảm cân đẹp da; duy trì vóc dáng cho bạn. ", 
+				image: File.open(Rails.root + "public/image/chanh_leo_coco.jpg")
+				
+Product.create!(name: "Chanh dây", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/chanhday.jpg")
+				
+Product.create!(name: "Chanh leo sữa chua", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/chanhleo_suachua_daxay.jpg")
+				
+Product.create!(name: "Chè đậu đỏ", 
+				category_id: 4,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/chedaudo.jpg")
+				
+Product.create!(name: "Chè đậu thập cẩm", 
+				category_id: 4,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/chedauthapcam.jpg")
+				
+Product.create!(name: "Chè đậu xanh", 
+				category_id: 4,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/chedauxanh.jpg")
+				
+Product.create!(name: "Che đậu xanh danh", 
+				category_id: 4,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/chedauxanhdanh.jpg")
+				
+Product.create!(name: "Chè khúc bạch", 
+				category_id: 4,
+				price: 16000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/chekhucbach.jpg")
+				
+Product.create!(name: "Chè mít", 
+				category_id: 4,
+				price: 16000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/chemit.jpg")
+				
+Product.create!(name: "Chè thái có sầu riêng", 
+				category_id: 4,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/chethaicosaurieng.jpg")
+				
+Product.create!(name: "Chè thái không sầu riêng", 
+				category_id: 4,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/chethaikhongsaurieng.jpg")
+				
+Product.create!(name: "Chè xoa xoa", 
+				category_id: 4,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/chexoaxoa.jpg")
+				
+Product.create!(name: "Cốc ép", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng, hương vị thơm ngon.", 
+				image: File.open(Rails.root + "public/image/cocep.jpg")
+				
+Product.create!(name: "Đậu hủ dâu", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/dauhudau.jpg")
+				
+Product.create!(name: "Đậu hủ đậu nành", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/dauhudaunanh.jpg")
+				
+Product.create!(name: "Đậu hủ sầu riêng", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/dauhusaurieng.jpg")
+				
+Product.create!(name: "Đậu hủ socola", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/dauhusocola.jpg")
+				
+
+Product.create!(name: "Đậu hũ sữa dừa", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/dauhusuadua.jpg")
+				
+Product.create!(name: "Đậu xay sữa chua", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/dauxaysuachua.jpg")
+				
+Product.create!(name: "Dừa", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/dua.jpg")
+				
+Product.create!(name: "Flan", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/flan.jpg")
+				
+Product.create!(name: "Flan dâu", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/flandau.jpg")
+				
+Product.create!(name: "Flan dừa", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/flandua.jpg")
+				
+Product.create!(name: "Flan kem tươi", 
+				category_id: 3,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/flankemtuoi.jpg")
+				
+Product.create!(name: "Flan sầu riêng", 
+				category_id: 3,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/flansaurieng.jpg")
+				
+Product.create!(name: "freeze", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/freeze.jpg")
+				
+Product.create!(name: "Hạt hướng dương", 
+				category_id: 1,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/hat-huong-duong.jpg")
+				
+Product.create!(name: "Hồng trà việt quốc", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/hong_tra_viet_quoc")
+				
+Product.create!(name: "Hồng trà", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/hongtra.jpg")
+				
+Product.create!(name: "Hồng trà kem dừa", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/hongtra_kemdua.jpg")
+				
+Product.create!(name: "Khoai lang", 
+				category_id: 1,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/khoailang.jpg")
+				
+Product.create!(name: "macchiato", 
+				category_id: 5,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/macchiato.jpg")
+				
+Product.create!(name: "macchiato hồng trà", 
+				category_id: 5,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/macchiato_hongtra.jpg")
+				
+Product.create!(name: "Macchiato matcha", 
+				category_id: 5,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/macchiato_matcha.jpg")
+				
+Product.create!(name: "Macchiato socola", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/macchiato_socola.jpg")
+				
+Product.create!(name: "macchiato hoàng gia", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/macchiato-hoang-gia.jpg")
+				
+Product.create!(name: "macchiato trà xanh.jpg", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/macchiato-tra-xanh.jpg")
+				
+Product.create!(name: "Mít sứa dừa", 
+				category_id: 3,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/mitsuadua.jpg")
+				
+Product.create!(name: "Mít sữa dừa sầu riêng", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/mitsuaduasaurieng.jpg")
+				
+Product.create!(name: "Mứt dâu tây", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/mutdautay_daxay.jpg")
+				
+Product.create!(name: "Nước bưởi", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/nuoc_buoi.jpg")
+				
+
+Product.create!(name: "Nước cà rốt", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/nuoc_ca_rot.jpg")
+				
+Product.create!(name: "Nước cam", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/nuoc_cam.jpg")
+				
+Product.create!(name: "Nước cam cà rốt", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/nuoc_cam_carot.jpg")
+				
+Product.create!(name: "Nước dừa ép", 
+				category_id: 5,
+				price: 15000, 
+				description: "Một chút biến tấu từ caramen thông thường, thêm nước cốt dừa béo ngậy, thạch và một số hoa quả nếu muốn, thêm chút nước cafe là bạn đã có món ăn giải nhiệt sảng khoái rồi nha. Đồ ăn vặt Online - SETFA có rất nhiều món caramen thập cẩm khác nhau để cho các bạn lựa chọn nhé!", 
+				image: File.open(Rails.root + "public/image/nuoc_dua_ep.jpg")
+
+Product.create!(name: "Nước Khế", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/nuoc_khe.jpg")
+				
+				
+Product.create!(name: "Nước lê", 
+				category_id: 3,
+				price: 13000, 
+				description: "Sinh tố chanh leo không chỉ là thức uống giải khát lý tưởng mà còn là thức uống giúp bạn giảm cân đẹp da; duy trì vóc dáng cho bạn. ", 
+				image: File.open(Rails.root + "public/image/nuoc_le.jpg")
+				
+Product.create!(name: "Nước ổi", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/nuoc_oi.jpg")
+				
+Product.create!(name: "Nước táo", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/nuoc_tao.jpg")
+				
+Product.create!(name: "Nước trà xanh", 
+				category_id: 4,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/nuoc_traxanh.jpg")
+				
+Product.create!(name: "Nước chanh", 
+				category_id: 4,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/nuocchanh.jpg")
+				
+Product.create!(name: "Pudding", 
+				category_id: 4,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/pudding.jpg")
+				
+Product.create!(name: "Rau câu", 
+				category_id: 4,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/raucau.jpg")
+				
+Product.create!(name: "Rau câu Flan dừa", 
+				category_id: 4,
+				price: 16000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/raucauflandua.jpg")
+				
+Product.create!(name: "Rau câu trái dừa", 
+				category_id: 4,
+				price: 16000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/raucautraidua.jpg")
+				
+Product.create!(name: "Sinh tố bơ", 
+				category_id: 4,
+				price: 18000, 
+				description: "Bơ là một loại thực phẩm tốt cho sức khỏe, cung cấp chất dinh dưỡng, điều chỉnh huyết áp, thậm chí bơ còn có thể ngăn ngừa nguy cơ ung thư.", 
+				image: File.open(Rails.root + "public/image/sinhtobo.jpg")
+				
+Product.create!(name: "Sinh tố mảng cầu", 
+				category_id: 4,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/sinhtomangcau.jpg")
+				
+Product.create!(name: "Sữa chua", 
+				category_id: 4,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng",
+				image: File.open(Rails.root + "public/image/suachua.jpg")
+				
+Product.create!(name: "Tàu hủ", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng, hương vị thơm ngon.", 
+				image: File.open(Rails.root + "public/image/tauhu.jpg")
+				
+Product.create!(name: "Thạch cafe", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/thach_cafe.jpg")
+				
+Product.create!(name: "Thạch macha", 
+				category_id: 3,
+				price: 20000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/thach_matcha.jpg")
+				
+Product.create!(name: "Thơm ép", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/thomep.jpg")
+				
+Product.create!(name: "Trà xanh", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/tra_xanh.jpg")
+				
+
+Product.create!(name: "Trà chanh hoàng gia", 
+				category_id: 5,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/trachanh_hoanggia.jpg")
+				
+Product.create!(name: "Trân châu sợi", 
+				category_id: 5,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/tran_chau_soi.jpg")
+				
+Product.create!(name: "Trân châu", 
+				category_id: 5,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/tranchau.jpg")
+				
+Product.create!(name: "Trà sen vàng", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/trasenvang.jpg")
+				
+Product.create!(name: "Trà sữa cafe", 
+				category_id: 3,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/trasua_cafe.jpg")
+				
+Product.create!(name: "Trà sữa dâu tây", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/trasua_dautay.jpg")
+				
+Product.create!(name: "Trà sữa dưa gang", 
+				category_id: 3,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/trasua_duagang.jpg")
+				
+Product.create!(name: "Trà sữa panda", 
+				category_id: 3,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/trasua_panda.jpg")
+				
+Product.create!(name: "Trà sữa toco", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/trasua_toco.jpg")
+				
+Product.create!(name: "Trà sữa trân châu boba", 
+				category_id: 1,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/trasua_tranchauboba.jpg")
+				
+Product.create!(name: "Trà xanh xoài", 
+				category_id: 3,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/traxanh_xoai.jpg")
+				
+Product.create!(name: "Xúc xích", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/xuc_xich.jpg")
+				
+Product.create!(name: "Yakult Xoài", 
+				category_id: 3,
+				price: 20000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/yakult_xoai.jpg")
+				
+Product.create!(name: "Yakult dừa", 
+				category_id: 1,
+				price: 20000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/yaourtdua.jpg")
+				
+Product.create!(name: "Yakult trái dừa", 
+				category_id: 1,
+				price: 25000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/yaourttraidua.jpg")
+				
+Product.create!(name: "macchiato hồng trà", 
+				category_id: 5,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/macchiato_hongtra.jpg")
+				
+Product.create!(name: "Macchiato matcha", 
+				category_id: 5,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/macchiato_matcha.jpg")
+				
+Product.create!(name: "Macchiato socola", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/macchiato_socola.jpg")
+				
+Product.create!(name: "macchiato hoàng gia", 
+				category_id: 5,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/macchiato-hoang-gia.jpg")
+				
+Product.create!(name: "macchiato trà xanh.jpg", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/macchiato-tra-xanh.jpg")
+				
+Product.create!(name: "Mít sứa dừa", 
+				category_id: 1,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/mitsuadua.jpg")
+				
+Product.create!(name: "Mít sữa dừa sầu riêng", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/mitsuaduasaurieng.jpg")
+				
+Product.create!(name: "Mứt dâu tây", 
+				category_id: 3,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/mutdautay_daxay.jpg")
+				
+Product.create!(name: "Nước bưởi", 
+				category_id: 3,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/nuoc_buoi.jpg")
+				
+Product.create!(name: "Cóc dầm", 
+				category_id: 2,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/cocdam.jpg")
+				
+Product.create!(name: "Xoài lắc bò khô", 
+				category_id: 2,
+				price: 18000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/xoailacbokho.jpg")
+				
+				
+Product.create!(name: "Xoài dầm", 
+				category_id: 2,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/xoaidam.jpg")
+				
+Product.create!(name: "Cốc lắc bò dầm", 
+				category_id: 2,
+				price: 10000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/coclacbodam.jpg")
+				
+Product.create!(name: "Hoa quả dầm", 
+				category_id: 2,
+				price: 15000, 
+				description: "Là thức ăn nhanh bổ dưỡng", 
+				image: File.open(Rails.root + "public/image/hoa qua dam.jpg")
